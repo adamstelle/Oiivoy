@@ -1,0 +1,47 @@
+
+/*LAYOUT*/
+
+html { 
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  line-height: 1.5em;
+  font-family: 'Gill Sans';
+  font-weight: 400;
+  font-size: 3em;
+}
+
+#logo {
+  font-family: 'Lobster', cursive;
+  font-size: 3.3em;
+  padding-left: 5%;
+  margin-top: .3em;
+}
+
+.headline {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.purple {
+  color: #cc33ff;
+}
+
+button {
+  background-color: transparent;
+  border-color: #cc33ff;
+  margin-top: 3em;
+  padding: .3em 1.5em .3em 1.5em;
+  font-family: 'Gill Sans';
+  font-weight: 400;
+  font-size: 1.5em;
+}
