@@ -14,7 +14,7 @@ h1 {
   line-height: 1.5em;
   font-family: 'Gill Sans';
   font-weight: 400;
-  font-size: 3em;
+  font-size: 3.5em;
 }
 
 #logo {
@@ -24,12 +24,18 @@ h1 {
   margin-top: .3em;
 }
 
-.headline {
+.main {
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 0;
   right: 0;
   text-align: center;
+}
+
+.headline {
+  color: #cc33ff;
+  border: solid;
+  padding: 2em;
 }
 
 .purple {
@@ -43,5 +49,5 @@ button {
   padding: .3em 1.5em .3em 1.5em;
   font-family: 'Gill Sans';
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 2em;
 }
