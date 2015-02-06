@@ -1,0 +1,22 @@
+{
+  "name": "running_cool",
+  "version": "1.0.0",
+  "description": "running Jamaican style mahn!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/callumsong/running_cool.git"
+  },
+  "author": "Cool Runnings",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/callumsong/running_cool/issues"
+  },
+  "homepage": "https://github.com/callumsong/running_cool",
+  "dependencies": {
+    "express": "^4.11.1"
+  }
+}
