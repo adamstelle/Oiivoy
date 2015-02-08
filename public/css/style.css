@@ -9,12 +9,34 @@ html {
   background-size: cover;
 }
 
+a {
+  color: #cc33ff;
+  font-size: .8em;
+}
+
+a:hover {
+  color: white;
+}
+
+
 h1 {
   color: white;
-  line-height: 1.5em;
+  line-height: 1.2em;
   font-family: 'Gill Sans';
   font-weight: 400;
-  font-size: 3.5em;
+  font-size: 4vw;
+}
+
+h2 {
+  line-height: 1.3em;
+  font-family: 'Gill Sans';
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.maincontainer {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 #logo {
@@ -26,16 +48,14 @@ h1 {
 
 .main {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 0;
   right: 0;
   text-align: center;
 }
 
 .headline {
-  color: #cc33ff;
-  border: solid;
-  padding: 2em;
+  padding: 2.0em;
 }
 
 .purple {
@@ -43,11 +63,50 @@ h1 {
 }
 
 button {
-  background-color: transparent;
-  border-color: #cc33ff;
+  color: rgba(204,51,255,1);
+  background: rgba(0,0,0,0.7);
   margin-top: 3em;
   padding: .3em 1.5em .3em 1.5em;
   font-family: 'Gill Sans';
   font-weight: 400;
   font-size: 2em;
+}
+
+button:hover {
+  color:white;
+}
+
+.bubble {
+  position: relative;
+  color:#FFFFFF;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding:.7em .4em .7em .4em;
+  background-color: rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.7));
+    filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.7));
+}
+
+.bubble:after {
+  position: absolute;
+  left: 85%;
+  bottom: -3em;
+  content:"";
+  opacity:0.5;
+  border-width:3em 1em 0; 
+  border-style:solid;
+  border-color:#000 transparent;
+  display:block; 
+  width:0;
+}
+
+footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  padding: 1em;
+  bottom: 0em;
+  height: 1.5em;
 }
