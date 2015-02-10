@@ -34,11 +34,6 @@ h2 {
   font-size: 1.5em;
 }
 
-.maincontainer {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
 #logo {
   font-family: 'Lobster', cursive;
   font-size: 3.3em;
@@ -65,7 +60,7 @@ h2 {
 button {
   color: rgba(204,51,255,1);
   background: rgba(0,0,0,0.7);
-  margin-top: 3em;
+  margin-top: 1em;
   padding: .3em 1.5em .3em 1.5em;
   font-family: 'Gill Sans';
   font-weight: 400;
@@ -87,19 +82,6 @@ button:hover {
     -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
     -webkit-filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.7));
     filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.7));
-}
-
-.bubble:after {
-  position: absolute;
-  left: 85%;
-  bottom: -3em;
-  content:"";
-  opacity:0.5;
-  border-width:3em 1em 0; 
-  border-style:solid;
-  border-color:#000 transparent;
-  display:block; 
-  width:0;
 }
 
 footer {
