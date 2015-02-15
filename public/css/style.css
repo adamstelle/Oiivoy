@@ -29,7 +29,6 @@ h2 {
   font-family: 'Gill Sans';
   font-weight: 300;
   font-size: 1.5em;
-  padding-top: 25px;
 }
 
 #logo {
@@ -85,7 +84,7 @@ button:hover {
 footer {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
-  position: relative;
+  position: fixed;
   padding: 1em;
   bottom: 0em;
   height: 1.5em;
