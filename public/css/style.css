@@ -54,6 +54,10 @@ h2 {
   color: #cc33ff;
 }
 
+.black {
+  color: #000000;
+}
+
 button {
   color: rgba(204,51,255,1);
   background: rgba(0,0,0,0.7);
