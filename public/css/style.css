@@ -38,6 +38,8 @@ h2 {
   font-variant: normal;
   padding-left: 5%;
   margin-top: .3em;
+  background-image:
+    url("OiivoyLogo.png")
 }
 
 .main {
@@ -50,11 +52,9 @@ h2 {
 
 .headline {
   padding: 2.0em;
-}
 
 .purple {
-  background-image:
-    url("OiivoyLogo.png")
+  color: #cc33ff;
 }
 
 .black {
