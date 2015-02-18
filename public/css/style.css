@@ -2,7 +2,11 @@
 /*LAYOUT*/
 
 html { 
-  background: white;
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 a {
@@ -21,19 +25,14 @@ a:hover {
 h1 {
   font-family: 'Gill Sans';
   font-weight: 400;
-<<<<<<< HEAD
-  font-size: 4vw;
-  padding: 25px 25px 25px 25px;
-=======
   font-size: 2em;
->>>>>>> de46969d9d50747f3d25030a6dba6f7bf8f05438
 }
 
 h2 {
   line-height: 1.3em;
   font-family: 'Gill Sans';
   font-weight: 300;
-  font-size: 2.5vw;
+  font-size: 1.5em;
 }
 
 header {
@@ -43,43 +42,26 @@ header {
 }
 
 #logo {
-<<<<<<< HEAD
-  font-family: Lobster;
-  font-size: 24px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 26.3999996185303px;
-=======
   font-family: 'Lobster', cursive;
   font-size: 4em;
->>>>>>> de46969d9d50747f3d25030a6dba6f7bf8f05438
 }
 
 .main {
   position: relative;
   top: 20%;
-  left: 5%;
-  right: 5%;
+  left: 0;
+  right: 0;
   text-align: center;
 }
 
 .headline {
   padding: 2.0em;
+}
 
 .purple {
   color: #cc33ff;
 }
 
-<<<<<<< HEAD
-.black {
-  color: #000000;
-}
-
-button {
-  color: rgba(204,51,255,1);
-  background: rgba(0,0,0,0.7);
-=======
 #mainbutton {
   outline: none;
   box-shadow: none;
@@ -87,7 +69,6 @@ button {
   padding: .5em 2em .5em 2em;
   color: white;
   background: rgba(204,51,255,1);
->>>>>>> de46969d9d50747f3d25030a6dba6f7bf8f05438
   margin-top: 1em;
   font-family: 'Gill Sans';
   font-weight: 300;
