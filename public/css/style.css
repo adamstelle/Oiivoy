@@ -32,8 +32,10 @@ h2 {
 }
 
 #logo {
-  font-family: 'Lobster', cursive;
+  font-family: 'Lobster';
   font-size: 3.3em;
+  font-style: normal;
+  font-variant: normal;
   padding-left: 5%;
   margin-top: .3em;
 }
@@ -51,7 +53,7 @@ h2 {
 }
 
 .purple {
-  color: #cc33ff;
+  background-image: 
 }
 
 .black {
