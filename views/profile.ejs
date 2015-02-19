@@ -8,29 +8,25 @@
   <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 </head>
   <body>
-    <header>
-      <h1 id="logo" class="purple grid-10 suffix-60">Oiivoy</h1>
-      <a href="/login" ><span class="fa fa-user"></span>Login</a>
-      <a href="/signup" id="join"><span class="fa fa-user"></span>Join</a>
-    </header>
-    <div class="container">
+    <section id="header">
+      <a href="/" id="logo" class="purple prefix-10 grid-20 suffix-35 mobile-grid-100">Oiivoy</a>
+      <div class="navbuttons grid-30 mobile-grid-100">
+        <a href="/logout" class="navbuttons">Logout</a>
+      </div>
+    </section>
+    <section class= "headline main grid-70 prefix-15 suffix-15">
       <div class="page-header text-center">
-        <h1><span class="fa fa-anchor"></span> Profile Page</h1>
-        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+        <h1><span class="fa fa-anchor"></span> Your Oiivoy</h1>
       </div>
       <div class="row">
         <!-- LOCAL INFORMATION -->
         <div class="col-sm-6">
           <div class="well">
-            <h3><span class="fa fa-user"></span> Local</h3>
-            <p>
-              <strong>id</strong>: <%= user._id %><br>
-              <strong>email</strong>: <%= user.local.email %><br>
-              <strong>password</strong>: <%= user.local.password %>
-            </p>
+            <h2>Welcome <%= user.local.email %>!</h2>
+            <p>We're still working out the kinks here at Oiivoy. We promise to let you know as soon as we're ready to help you manage your money.</p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </body>
 </html>

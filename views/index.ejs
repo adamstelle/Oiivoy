@@ -8,18 +8,21 @@
   <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <header>
-    <h1 id="logo" class="purple grid-10 suffix-60">Oiivoy</h1>
-    <a href="/login" ><span class="fa fa-user"></span>Login</a>
-    <a href="/signup" id="join"><span class="fa fa-user"></span>Join</a>
-  </header>
+  <section id="header">
+    <h1 id="logo" class="purple prefix-10 grid-20 suffix-35 mobile-grid-100">Oiivoy</h1>
+    <div class="navbuttons grid-30 mobile-grid-100">
+      <a href="/login" class="navbuttons">Login</a>
+      <a href="/signup" class="navbuttons" id="join">Join</a>
+    </div>
+  </section>
   <div class="container main">
     <section class= "headline grid-70 prefix-15 suffix-15">
-      <h1><span class="fa fa-lock">Automated Money Management</h1></span>
-      <h2>We help freelancers and independent contractors manage their cash flow and prepare for taxes.</h2>
+      <h1>Automated Money Management</h1>
+      <h2 class="prefix-15 grid-70 suffix-15">We help freelancers and independent contractors manage their cash flow and prepare for taxes.</h2>
     </section>
-    <button id="mainbutton">Join Oiivoy</button>
-    <p class="small">By clicking this button, you agree to our Terms of Service and Privacy Policy<p>
+    <h1><a class="mainbutton" href="/signup">Join Oiivoy</a></h1>
+    <p><a id="learn" href="/about">Learn More</a></p>
   </div>
 </body>
+<footer></footer>
 </html>

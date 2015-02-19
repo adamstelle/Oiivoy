@@ -11,19 +11,13 @@
     <div class="container main">
       <section id="header">
         <a href="/" id="logo" class="purple prefix-10 grid-20 suffix-35 mobile-grid-100">Oiivoy</a>
+        <div class="navbuttons grid-30 mobile-grid-100">
+          <a href="/login" class="navbuttons">Login</a>
+          <a href="/signup" class="navbuttons" id="join">Join</a>
+        </div>
       </section>
       <section class= "headline grid-70 prefix-15 suffix-15">
-        <!-- show any messages that come back with authentication -->
-        <% if (message.length > 0) { %>
-            <div class="alert alert-danger"><%= message %></div>
-        <% } %>
-        <h1>Login</h1>
-        <form action="/login" autocomplete="off" class="prefix-10 grid-80 suffix-10 mobile-grid-100 formstyle" method="post">
-          <input type="text" autocomplete="off" name="email">
-          <input type="password" name="password">
-          <button id="signup" type="submit">Log In</button>
-          <p><a href="/signup">Need an account?</a></p>
-        </form>
+        <h1>About Oiivoy</h1>
       </section>
     </div>
   </body>

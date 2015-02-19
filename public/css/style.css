@@ -9,13 +9,17 @@ html {
   background-size: cover;
 }
 
+p {
+  font-family: 'Gill Sans';
+  font-size: 1.2em;
+  line-height: 1.3em;
+  margin-bottom: .8em; 
+}
+
 a {
-  color: #cc33ff;
-  font-size: 1.3em;
   font-family: 'Gill Sans';
   font-weight: 100;
   text-decoration: none;
-  margin-right: 2em;
 }
 
 a:hover {
@@ -25,25 +29,67 @@ a:hover {
 h1 {
   font-family: 'Gill Sans';
   font-weight: 400;
-  font-size: 2em;
+  font-size: 4em;
+  margin-bottom: .5em;
 }
 
 h2 {
   line-height: 1.3em;
   font-family: 'Gill Sans';
-  font-weight: 300;
-  font-size: 1.5em;
+  font-weight: 100;
+  font-size: 2em;
 }
 
-header {
+h3 {
+  font-family: 'Gill Sans';
+  font-size: 3.5em;
+}
+
+input {
+  width: 15em;
+  font-size: 1.5em;
+  padding: .5em;
+  border: solid !important;
+  border-width: 1px !important;
+  border-color: #cc33ff !important;
+  text-align: center;
+  margin-bottom: .6em;
+  transition: box-shadow 0.3s;
+}
+
+.formstyle {
+  border: solid;
+  border-width: 1px;
+  border-color: #cc33ff;
+  padding: 4em 12em 4em 12em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+
+#header {
   background-color: black;
   vertical-align: center;
-  height: 5em;
+  text-align: center;
+  height: 5.5em;
 }
 
 #logo {
   font-family: 'Lobster', cursive;
   font-size: 4em;
+  padding-top: .1em;
+}
+
+#logo:hover {
+  color: #cc33ff;
 }
 
 .main {
@@ -54,35 +100,65 @@ header {
   text-align: center;
 }
 
+.navbuttons {
+  padding-top: 1.5em;
+  color: #cc33ff;
+  font-size: 1.2em;
+  margin-right: 2em;
+}
+
+.centertitle {
+  text-align: center;
+}
+
 .headline {
-  padding: 2.0em;
+  padding: 2.5em;
 }
 
 .purple {
   color: #cc33ff;
 }
 
-#mainbutton {
-  outline: none;
-  box-shadow: none;
-  border: none;
-  padding: .5em 2em .5em 2em;
+.mainbutton {
+  padding: .5em 3.5em .5em 3.5em;
   color: white;
   background: rgba(204,51,255,1);
-  margin-top: 1em;
+  margin-top: .3em;
+  margin-bottom: .3em;
   font-family: 'Gill Sans';
   font-weight: 300;
-  font-size: 2.5em;
+  font-size: .6em;
+}
+
+#signup {
+  font-size: 1.3em;
+  color: white;
+  font-weight: 200;
+  font-family: 'Gill Sans';
+  padding: .8em 5.5em .8em 5.5em;
+  background: rgba(204,51,255,1);
+  box-shadow: none;
+  webkit-appearance: none;
+  appearance: none;
+  border: none;
+  margin-bottom: 1em;
+}
+
+#learn {
+  color: black;
+}
+
+#learn:hover {
+  color: #cc33ff;
 }
 
 #join {
   padding: .5em 2em .5em 2em;
   background-color: white;
-  outline: none;
 }
 
 button:hover {
-  color:white;
+  color:black;
 }
 
 .bubble {
@@ -100,7 +176,7 @@ button:hover {
 
 footer {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: black;
   position: fixed;
   padding: 1em;
   bottom: 0em;
